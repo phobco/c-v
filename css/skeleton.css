@@ -468,6 +468,10 @@ __________________________________________________ */
   margin: 10px 0;
 }
 
+.email {
+  margin-left: 5px;
+}
+
 .avatar {
   max-width: 80%;
   border-radius: 50%;
