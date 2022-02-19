@@ -1,137 +1,180 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Филипп Обриванов</title>
+  <title>Philipp Obrivanov</title>
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" media="screen" href="css/skeleton.css">
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
 </head>
 <body>
   <div class="container">
-    <div class="row">
-      <h1>Филипп Обриванов</h1>
+    <div class="row text-center mt-2 mb-4">
+      <h1 class="title">PHILIPP OBRIVANOV</h1>
+      <h4 class="no-margin">Ruby On Rails developer</h4>
     </div>
     <div class="row">
-      <div class="six columns center">
-        <img class="avatar" src="images/avatar.jpg" alt="photo">
-        <h4 class="no-margin">Ruby / Ruby On Rails</h4>
-        <h5>разработчик</h5>
+      <div class="col-md-4 text-center">
+        <img class="img-fluid rounded-circle shadow" src="images/avatar.jpg" alt="photo">
       </div>
-      <div class="six columns info">
-        <h3>Основная информация:</h3>
-        <ul class="list">
-          <li><strong>возраст:</strong> 28 лет</li>
-          <li><strong>город:</strong> Евпатория</li>
-          <li><strong>переезд:</strong> возможен</li>
+
+      <div class="col-md-3 px-4">
+        <div class="col">
+          <h4>About:</h4>
+          <ul class="fs-6">
+            <li><strong>age: </strong>28 y.o.</li>
+            <li><strong>location: </strong>Yevpatoria, Crimea</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>Contacts:</h4>
+          <ul class="list">
+            <li>
+              <strong>phone:</strong>
+              <a class="text-decoration-none link-secondary" >+7(918)-107-25-25</a>
+            </li>
+            <li>
+              <strong>e-mail:</strong>
+              <a class="text-decoration-none link-primary" href="mailto:milliardex@gmail.com">milliardex@gmail.com</a>
+            </li>
+            <li>
+              <strong>telegram: </strong>
+              <a href="https://t.me/phobco">
+                <img class="text-primary" src="images/telegram.svg" width="19" height="19" alt="Telegram">
+              </a>
+            </li>
+            <li>
+              <strong>github: </strong>
+              <a href="https://github.com/phobco">
+                <img src="images/github.svg" width="19" height="19" alt="Github">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <h4>Job Opportunity:</h4>
+        <ul>
+          <li><strong>employment: </strong>full-time</li>
+          <li><strong>format: </strong>office / remote</li>
+          <li><strong>business trips: </strong>ready</li>
+          <li><strong>relocation: </strong>available</li>
         </ul>
-        <h3>Контакты:</h3>
-        <ul class="list">
-          <li>
-            <strong>e-mail:</strong>
-            <a class="email" href="mailto:milliardex@gmail.com">milliardex@gmail.com</a>
-          </li>
-          <li>
-            <strong>telegram: </strong>
-            <a href="https://t.me/phobco">
-              <img class="logo" src="images/telegram.png" alt="Telegram">
-            </a>
-          </li>
-          <li>
-            <strong>github: </strong>
-            <a href="https://github.com/phobco">
-              <img class="logo" src="images/github.png" alt="Github">
-            </a>
-          </li>
-        </ul>
       </div>
-    </div>
-    <div class="row main">
-      <div class="six columns block-left">
-        <h3 class="center">Навыки:</h3>
-        <table class="table">
-          <tr>
-            <td>Ruby</td>
-            <td>Ruby on Rails</td>
-            <td>OOP</td>
-          </tr>
-          <tr>
-            <td>Code Style</td>
-            <td>MVC</td>
-            <td>REST</td>
-          </tr>
-          <tr>
-            <td>RSpec</td>
-            <td>Capybara</td>
-            <td>Minitest</td>
-          </tr>
-          <tr>
-            <td>PostgreSQL</td>
-            <td>SQLite3</td>
-            <td>Redis</td>
-          </tr>
-          <tr>
-            <td>HTML5</td>
-            <td>CSS</td>
-            <td>JavaScript</td>
-          </tr>
-          <tr>
-            <td>Git</td>
-            <td>GitHub</td>
-            <td>Linux</td>
-          </tr>
-          <tr>
-            <td>Capistrano</td>
-            <td>Heroku</td>
-            <td>VPS</td>
-          </tr>
-        </table>
-        <h3 class="center">Языки:</h3>
-        <div class="languadges">
-        <h6><strong>Русский:</strong> родной</h6>
-        <h6><strong>English:</strong> pre-intermediate</h6>
-      </div>
-      </div>
-      <div class="six columns block-right">
-        <h3>Опыт работы:</h3>
-        <div class="chapter">
-          <div class="description">
-            <h5>ИП</h5>
+
+      <div class="row mb-4">
+        <div class="col-md-4 mt-4 px-5">
+          <div class="text-center">
+            <h4 class="mb-3">Skills:</h4>
+              <table class="table text-center">
+                <tr>
+                  <td>Ruby</td>
+                  <td>Ruby on Rails</td>
+                  <td>OOP</td>
+                </tr>
+                <tr>
+                  <td>Code Style</td>
+                  <td>MVC</td>
+                  <td>REST</td>
+                </tr>
+                <tr>
+                  <td>RSpec</td>
+                  <td>Capybara</td>
+                  <td>Minitest</td>
+                </tr>
+                <tr>
+                  <td>PostgreSQL</td>
+                  <td>SQLite</td>
+                  <td>Redis</td>
+                </tr>
+                <tr>
+                  <td>HTML</td>
+                  <td>CSS</td>
+                  <td>JavaScript</td>
+                </tr>
+                <tr>
+                  <td>Git</td>
+                  <td>GitHub</td>
+                  <td>Linux</td>
+                </tr>
+                <tr>
+                  <td>Capistrano</td>
+                  <td>Heroku</td>
+                  <td>VPS</td>
+                </tr>
+              </table>
+          </div>
+          <div>
+            <h4 class="text-center my-4">Languages:</h4>
+            <div class="px-3">
+              <h6><strong>Russian:</strong> native</h6>
+              <h6><strong>English:</strong> pre-intermediate</h6>
+          </div>
+          </div>
+        </div>
+        
+        <div class="col-md-8 px-4 pt-5">
+          <h4>Projects:</h4>
+          <div class="px-4 mb-3">
+            <p class="m-0"><strong>BBQ</strong> — app to organize events and meet up with friends.</p>
+            <a class="text-decoration-none" href="https://phobco.ru/">Web app</a> | <a class="text-decoration-none" href="https://github.com/phobco/bbq">Repo</a> 
+          </div>
+          <div class="px-4 mb-3">
+            <p class="m-0">The world-famous web game <strong>Who Wants to Be a Millionare</strong>.</p>
+            <a class="text-decoration-none" href="https://millionaire-phobco.herokuapp.com/">Web app</a> | <a class="text-decoration-none" href="https://github.com/phobco/bbq">Repo</a> 
+          </div>
+          <div class="px-4 mb-3">
+            <p class="m-0"><strong>Instatalk</strong> — public chats rooms based on websockets technology.</p>
+            <a class="text-decoration-none" href="https://fast-instatalk.herokuapp.com/">Web app</a> | <a class="text-decoration-none" href="https://github.com/phobco/instatalk">Repo</a> 
+          </div>
+          <div class="px-4 mb-3">
+            <p class="m-0"><strong>AskMe</strong> — ask someone and get answer.</p>
+            <a class="text-decoration-none" href="https://ask-good-q.herokuapp.com/">Web app</a> | <a class="text-decoration-none" href="https://github.com/phobco/ask-me">Repo</a> 
+          </div>
+          <div class="px-4 mb-3">
+            <p class="m-0"><strong>Hangman</strong> — console Ruby game.</p>
+            <a class="text-decoration-none" href="https://github.com/phobco/hangman">Repo</a> 
+          </div>
+          <div class="px-4 mb-4">
+            <p class="m-0">See all my projects on <a class="text-decoration-none" href="https://github.com/phobco">GitHub</a>.</p>
+          </div>
+
+          <h4>Education:</h4>
+          <div class="px-4 mt-2">
+            <div class="">
+              <h5>Ruby on Rails сourse</h5>
+              <h6>(2021.09 — 2022.02)</h6>
+              <p>
+                <a href="https://goodprogrammer.ru/rails#program">goodprogrammer.ru</a>
+              </p>
+            </div>
+            <div class="">
+              <h5>V.I. Vernadsky Taurida National University</h5>
+              <h6>(2010 — 2014)</h6>
+              <p>Bachelor's degree in Mathematics and Computer Science</p>
+              <p>
+                <a href="https://ta.cfuv.ru/mat-fac/informatika">cfuv.ru</a>
+              </p>
+            </div>
+          </div>
+
+          <h4>Work experience:</h4>          
+          <div class="px-4 mt-2">
+            <h5>self-employment</h5>
             <h6>(2018 — 2020)</h6>
             <p>
-              Продажа товаров с одностраничных сайтов
+              Selling goods from landing pages.</br>
+              Customer service, advertising settings, landing page development.
             </p>
-          </div>
-          <div class="description">
-            <h5>ООО "Альфа гранит и мрамор"</h5>
+          
+            <h5>LLC "Alfa Granite and Marble"</h5>
             <h6>(2015 — 2017)</h6>
             <p>
-              Менеджер по продажам/рекламе
-            </p>
-          </div>
-        </div>
-        <div class="chapter">
-          <h3>Образование:</h3>
-          <div class="description">
-            <h5>Курс по Ruby on Rails</h5>
-            <h6>(2021 — 2022)</h6>
-            <p>
-              <a href="https://goodprogrammer.ru/">goodprogrammer.ru</a>
-            </p>
-          </div>
-          <div class="description">
-            <h5>КФУ им. В.И. Вернадского</h5>
-            <h6>(2010 — 2014)</h6>
-            <p>Факультет математики и информатики</p>
-            <p>
-              <a href="https://ta.cfuv.ru/mat-fac/informatika">cfuv.ru</a>
+              Sales/advertising manager
             </p>
           </div>
         </div>
       </div>
-    </div>
   </div>
 </body>
 </html>
