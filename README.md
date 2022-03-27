@@ -1,1 +1,1 @@
-# [Curriculum vitae](https://phobco.github.io/cv/)
+# [Curriculum vitae](https://phobco.github.io/c-v/)
